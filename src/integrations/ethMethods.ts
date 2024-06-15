@@ -1,12 +1,12 @@
 import { AxiosResponse } from 'axios';
 
-import { JsonRpcRequestPayload } from '../lib/interfaces/jsonRpcRequest';
-import { JsonRpcResponse } from '../lib/interfaces/jsonRpcResponse';
+import { JsonRpcRequestPayload } from '../lib/interfaces/jsonRpcRequest.js';
+import { JsonRpcResponse } from '../lib/interfaces/jsonRpcResponse.js';
 
-import { constructEthMethodPayload } from '../utils/ethCall';
-import { logger } from '../utils/logger';
-import { State } from '@/lib/client/blockTimeClient';
-import { EthMethod } from '@/lib/interfaces/ethMethods';
+import { constructEthMethodPayload } from '../utils/ethCall.js';
+import { logger } from '../utils/logger.js';
+import { State } from '../lib/client/blockTimeClient.js';
+import { EthMethod } from '../lib/interfaces/ethMethods.js';
 
 /**
  * erc20 integration for managing Ethereum RPC requests.

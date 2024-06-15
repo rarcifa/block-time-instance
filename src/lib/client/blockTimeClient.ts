@@ -1,4 +1,4 @@
-import { blockTime } from '../../utils/blockTime';
+import { blockTime } from '../../utils/blockTime.js';
 import axios, { AxiosInstance } from 'axios';
 
 /**

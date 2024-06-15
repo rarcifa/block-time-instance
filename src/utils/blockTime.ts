@@ -1,5 +1,5 @@
-import { Block, State } from '@/lib/client/blockTimeClient';
-import { ethMethods } from '@/integrations/ethMethods';
+import { Block, State } from '../lib/client/blockTimeClient.js';
+import { ethMethods } from '../integrations/ethMethods.js';
 
 /**
  * Provides utility functions for fetching and processing blockchain blocks based on timestamps.

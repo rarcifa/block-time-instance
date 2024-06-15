@@ -1,26 +1,15 @@
 {
   "compilerOptions": {
-    "outDir": "build",
-    "module": "esnext",
-    "target": "es5",
-    "lib": ["es6", "dom"],
-    "sourceMap": true,
-    "allowJs": true,
-    "moduleResolution": "node",
-    "rootDir": ".",
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
+    "target": "es6",
+    "module": "nodenext",
+    "lib": ["es2017", "es6", "dom"],
+    "declaration": true,
+    "outDir": "dist",
     "strict": true,
-    "jsx": "react-jsx",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    },
+    "esModuleInterop": true
   },
-  "exclude": ["node_modules", "build", "dist", "static", "scripts", "acceptance-tests", "webpack", "jest", "src/setupTests.ts"],
-  "types": ["typePatches"]
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
